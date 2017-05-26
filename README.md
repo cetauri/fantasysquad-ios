@@ -1,4 +1,4 @@
-# README #
+# Fantasy Squad for ios #
 
 Sample App for Fansatsy Squad
 

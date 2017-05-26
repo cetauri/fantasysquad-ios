@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF266A551ED33E32007A0384 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF266A541ED33E32007A0384 /* UserNotifications.framework */; };
+		AF266A581ED3507D007A0384 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF266A571ED3507D007A0384 /* Media.xcassets */; };
 		AF36A6DC1ECF3C370085E7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF36A6DB1ECF3C370085E7D6 /* AppDelegate.swift */; };
 		AF36A6DE1ECF3C370085E7D6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF36A6DD1ECF3C370085E7D6 /* FirstViewController.swift */; };
 		AF36A6E01ECF3C370085E7D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF36A6DF1ECF3C370085E7D6 /* SecondViewController.swift */; };
@@ -17,7 +18,6 @@
 		AF36A6F31ECF3C370085E7D6 /* Fantasy_SquadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF36A6F21ECF3C370085E7D6 /* Fantasy_SquadTests.swift */; };
 		AF36A6FE1ECF3C370085E7D6 /* Fantasy_SquadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF36A6FD1ECF3C370085E7D6 /* Fantasy_SquadUITests.swift */; };
 		AF36A70C1ECF3CFF0085E7D6 /* 18485639_1425784364148245_2678013113614408044_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF36A70B1ECF3CFF0085E7D6 /* 18485639_1425784364148245_2678013113614408044_n.jpg */; };
-		AFC56F7C1ED31F980032DDC9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC56F7B1ED31F980032DDC9 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,7 @@
 /* Begin PBXFileReference section */
 		AF266A541ED33E32007A0384 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		AF266A561ED341BD007A0384 /* Fantasy Squad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fantasy Squad.entitlements"; sourceTree = "<group>"; };
+		AF266A571ED3507D007A0384 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		AF36A6D81ECF3C370085E7D6 /* Fantasy Squad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fantasy Squad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF36A6DB1ECF3C370085E7D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF36A6DD1ECF3C370085E7D6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		AF36A6FD1ECF3C370085E7D6 /* Fantasy_SquadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fantasy_SquadUITests.swift; sourceTree = "<group>"; };
 		AF36A6FF1ECF3C370085E7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF36A70B1ECF3CFF0085E7D6 /* 18485639_1425784364148245_2678013113614408044_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18485639_1425784364148245_2678013113614408044_n.jpg; sourceTree = "<group>"; };
-		AFC56F7B1ED31F980032DDC9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 				AF36A6DD1ECF3C370085E7D6 /* FirstViewController.swift */,
 				AF36A6DF1ECF3C370085E7D6 /* SecondViewController.swift */,
 				AF36A6E11ECF3C370085E7D6 /* Main.storyboard */,
-				AFC56F7B1ED31F980032DDC9 /* Media.xcassets */,
+				AF266A571ED3507D007A0384 /* Media.xcassets */,
 				AF36A6E41ECF3C370085E7D6 /* Assets.xcassets */,
 				AF36A6E61ECF3C370085E7D6 /* LaunchScreen.storyboard */,
 				AF36A6E91ECF3C370085E7D6 /* Info.plist */,
@@ -216,8 +216,8 @@
 				TargetAttributes = {
 					AF36A6D71ECF3C370085E7D6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = EWSD2Q7H9T;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 5AJNK89552;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -263,7 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC56F7C1ED31F980032DDC9 /* Media.xcassets in Resources */,
+				AF266A581ED3507D007A0384 /* Media.xcassets in Resources */,
 				AF36A70C1ECF3CFF0085E7D6 /* 18485639_1425784364148245_2678013113614408044_n.jpg in Resources */,
 				AF36A6E81ECF3C370085E7D6 /* LaunchScreen.storyboard in Resources */,
 				AF36A6E51ECF3C370085E7D6 /* Assets.xcassets in Resources */,
@@ -445,11 +445,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Fantasy Squad/Fantasy Squad.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = EWSD2Q7H9T;
 				INFOPLIST_FILE = "Fantasy Squad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.playsnak.fantasysquad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e59f0e97-325f-4cd6-8f32-5445ecdcc639";
+				PROVISIONING_PROFILE_SPECIFIER = "fantasysquad dev";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -459,11 +462,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Fantasy Squad/Fantasy Squad.entitlements";
-				DEVELOPMENT_TEAM = EWSD2Q7H9T;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5AJNK89552;
 				INFOPLIST_FILE = "Fantasy Squad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.playsnak.fantasysquad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1AB95AF0-EDA9-4C2F-B559-CAC5D8538013";
+				PROVISIONING_PROFILE_SPECIFIER = dev;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

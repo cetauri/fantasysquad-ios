@@ -1,11 +1,11 @@
 # Fantasy Squad for ios #
 
-Sample App for Fansatsy Squad
+Sample App for Fantasy Squad
 
 ### What is this repository for? ###
 
-* Testing Push Notification and TestFlighting
+* Testing Push Notification and TestFlight
 
-### How do I get set up? ###
+### How to use it ###
 
-* Header is a device token for this devices.
+* Header fields is a device token for this devices.
